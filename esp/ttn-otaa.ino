@@ -104,6 +104,7 @@ const lmic_pinmap lmic_pins = {
     .dio = {2, 25,LMIC_UNUSED_PIN},
 };
 
+//https://fablab.ruc.dk/building-devices-for-the-things-network/
 
 void printHex2(unsigned v) {
     v &= 0xff;
